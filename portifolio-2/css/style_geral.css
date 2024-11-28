@@ -1,0 +1,83 @@
+.flex_centralized{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border{
+    border: dashed 2px #c6000043;
+}
+.border2{
+    border: dashed 2px #00c65643;
+}
+.border3{
+    border: dashed 2px #c600b943;
+}
+
+main{
+    height: 80%;
+    width: 50%;
+
+    border: solid black;
+    border-width: 2px 2px 5px 2px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.bioInfos{
+    height: 25%;
+    width: 100%;
+
+    flex-direction: column;
+
+    .iconField{
+        height: 75%;
+        width: 45%;
+    }
+    .biosText{
+        height: 25%;
+        width: 100%;
+    }
+}
+.themeButton{
+    height: 10%;
+    width: 100%;
+
+    .themeButtonZone{
+        height: 100%;
+        width: 40%;
+    }
+}
+.linksSection{
+    height: 50%;
+    width: 90%;
+
+    .line1, .line2{
+        height: 50%;
+        width: 100%;
+
+        .clickableDiv{
+            height: 50%;
+            width: 100%;
+        }
+    }
+}
+.popUpLinks{
+    height: 15%;
+    width: 100%;
+
+    .lineIcon{
+        height: 80%;
+        width: 100%;
+
+        a{
+            height: 100%;
+            width: 15%;
+
+            .clickableIcon{
+                height: 100%;
+            }
+        }
+    }
+}
